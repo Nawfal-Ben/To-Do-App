@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+.task-input {
+    margin: 20px auto;
+    width: 650px;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.tasks {
+    margin: 20px auto;
+    width: 650px;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 500px;
+    font-size: 22px;
+}
+input:focus {
+    outline: none
+}
+.add {
+    background-color: #fc4800;
+    border: none;
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.del {
+    background-color: #fc4800;
+    border: none;
+    padding: 5px 10px;
+    font-size: 22px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.add:hover, .del:hover {
+    background-color: #d43e02;
+}
+p {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 22px;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+p.done, p:hover {
+    opacity: 0.7;
+}
